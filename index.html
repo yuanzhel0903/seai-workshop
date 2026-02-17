@@ -297,7 +297,7 @@
 
                     .overview-section .questions-grid {
                         display: grid;
-                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-columns: repeat(3, 1fr);
                         gap: 30px;
                         margin-top: 40px;
                     }
@@ -330,6 +330,31 @@
                 <div class="overview-section">
                     <div class="intro-text">
                         Recent advances in Embodied AI have improved navigation and manipulation, yet these gains often fail to transfer to social environments where success depends on human-robot interaction, coordination, and social intention anticipation. Our workshop establishes Social Embodied AI as an agenda for developing and evaluating agents that perceive, reason about, and act on social context in human-robot interaction and collaboration. We focus on three core gaps: simulated and physical environments that expose communicative interfaces and measurable social signals, learning targets that support intention and belief-aware reasoning and partner adaptation under partial observability, and process-oriented evaluation that distinguishes socially compliant and safe behavior beyond task success.
+                    </div>
+
+                    <h3 style="color: #2d3748; margin: 30px 0 20px;">Key Challenges We Aim to Address</h3>
+
+                    <div class="questions-grid">
+                        <div class="question-card">
+                            <div class="question-title">Challenge 1: Intention and Belief Understanding</div>
+                            <div class="question-content">
+                                How can embodied agents infer human intentions, beliefs, and emotional states from sparse multimodal cues? This challenge addresses predicting partner goals online, representing epistemic gaps and false beliefs, modeling goal hierarchies that enable social replanning, and estimating affective states to adapt timing and assistance.
+                            </div>
+                        </div>
+
+                        <div class="question-card">
+                            <div class="question-title">Challenge 2: Collaborative Adaptation</div>
+                            <div class="question-content">
+                                How can agents build persistent partner models and adapt to complement human collaborators? This involves estimating what information partners can access, inferring shifting roles during joint activities, predicting complementary actions that divide labor effectively, and learning from repeated interactions to enable personalized coordination.
+                            </div>
+                        </div>
+
+                        <div class="question-card">
+                            <div class="question-title">Challenge 3: Social Norms and Affective Awareness</div>
+                            <div class="question-content">
+                                How can agents recognize and respect context-dependent social norms and individual preferences? This encompasses modeling engagement to support well-timed interventions, adapting to cultural conventions and unwritten social rules, and personalizing behaviors based on user-specific needs, privacy expectations, and spatial interaction preferences.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
